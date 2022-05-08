@@ -370,7 +370,6 @@ class HackNSlashDemo {
 
   _Step(timeElapsed) {
     const timeElapsedS = Math.min(1.0 / 30.0, timeElapsed * 0.001);
-
     this._UpdateSun();
 
     this._entityManager.Update(timeElapsedS);

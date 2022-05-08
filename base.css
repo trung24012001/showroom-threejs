@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   overscroll-behavior: none;
+  overflow: hidden;
 }
 
 .container {
@@ -239,13 +240,13 @@ body {
 }
 
 #modal-visit {
-  width: 800px;
-  height: 800px;
+  width: 60%;
+  height: 80%;
   background-color: #fff;
   border-radius: 20px;
   padding: 50px;
   position: absolute;
-  margin-top: 100px;
+  margin-top: 20px;
   visibility: hidden;
 }
 

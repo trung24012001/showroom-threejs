@@ -12,13 +12,13 @@ export const ui_controller = (() => {
       this._iconBar = {
         stats: document.getElementById("icon-bar-stats"),
         // inventory: document.getElementById('icon-bar-inventory'),
-        quests: document.getElementById("icon-bar-quests"),
+        // quests: document.getElementById("icon-bar-quests"),
       };
 
       this._ui = {
         // inventory: document.getElementById('inventory'),
         stats: document.getElementById("stats"),
-        quests: document.getElementById("quest-journal"),
+        // quests: document.getElementById("quest-journal"),
       };
 
       // this._iconBar.inventory.onclick = (m) => {
@@ -27,9 +27,9 @@ export const ui_controller = (() => {
       this._iconBar.stats.onclick = (m) => {
         this._OnStatsClicked(m);
       };
-      this._iconBar.quests.onclick = (m) => {
-        this._OnQuestsClicked(m);
-      };
+      // this._iconBar.quests.onclick = (m) => {
+      //   this._OnQuestsClicked(m);
+      // };
       this._HideUI();
     }
 
@@ -67,7 +67,7 @@ export const ui_controller = (() => {
     _HideUI() {
       // this._ui.inventory.style.visibility = "hidden";
       this._ui.stats.style.visibility = "hidden";
-      this._ui.quests.style.visibility = "hidden";
+      // this._ui.quests.style.visibility = "hidden";
     }
 
     _OnQuestsClicked(msg) {
