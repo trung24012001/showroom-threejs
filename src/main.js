@@ -316,9 +316,11 @@ class HackNSlashDemo {
       if (object.geometry.type == "BoxGeometry") {
         const modal = document.getElementById("modal-visit");
         const content = modal.getElementsByClassName("modal-content")[0];
+        const price = modal.getElementsByClassName("modal-price")[0];
         const model_viewer = modal.getElementsByTagName("model-viewer")[0];
         model_viewer.src = object.decorate.path + object.decorate.name;
         content.innerHTML = object.decorate.content;
+        price.innerHTML = object.decorate.price;
         modal.style.visibility = "visible";
       }
     }

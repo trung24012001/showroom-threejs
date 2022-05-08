@@ -265,5 +265,10 @@ body {
 
 #modal-visit .modal-content {
   margin-top: 50px;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+#modal-visit .modal-price {
+  font-size: 28px;
+  text-align: right;
 }
